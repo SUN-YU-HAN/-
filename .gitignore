@@ -1,0 +1,23 @@
+# 由 https://www.toptal.com/developers/gitignore/api/visualstudiocode 創建
+# 在 https://www.toptal.com/developers/gitignore?templates=visualstudiocode 上編輯
+
+###VisualStudio程式碼###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.程式碼片段
+
+# Visual Studio Code 的本機歷史記錄
+。歷史/
+
+# 建置 Visual Studio Code 擴充功能
+*.vsix
+
+### VisualStudioCode 補丁 ###
+# 忽略所有文件的本機歷史記錄
+。歷史
+.ionide
+
+# https://www.toptal.com/developers/gitignore/api/visualstudiocode 結束
